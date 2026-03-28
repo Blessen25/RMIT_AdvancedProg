@@ -8,7 +8,7 @@ public class week1_1 {
 
         while (true) {
 
-            System.out.println("Enter Traffic Light Colour ( or type exit to stop ) \n");
+            System.out.println("Enter Traffic Light Colour ( or type exit to stop )");
 
             String Traffic_light = myObj.nextLine().toLowerCase();
             if (Traffic_light.equals("red")) {
